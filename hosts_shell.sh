@@ -19,4 +19,4 @@ cat /etc/hosts | while read ip name rest; do
     if ! check_ip "$name" "$ip" "$DNS"; then
         echo "IP gresit pentru $name in /etc/hosts!"
     fi
-done
+doneecho "DabuBogdan"
